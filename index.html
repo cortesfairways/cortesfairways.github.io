@@ -7,78 +7,48 @@
 
 <style>
     body {
-        font-family: Arial, sans-serif;
         margin: 0;
-        padding: 40px 20px;
+        padding: 0;
+        font-family: 'Inter', Arial, sans-serif;
+        background: #f2f3f7;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+    }
+
+    .card {
         background: #ffffff;
+        width: 90%;
+        max-width: 420px;
+        padding: 40px 30px;
+        border-radius: 28px;
+        box-shadow: 0 10px 30px rgba(0,0,0,0.08);
         text-align: center;
-        color: #333;
     }
 
-    .container {
-        max-width: 450px;
-        margin: auto;
+    /* Logo Circle */
+    .logo-wrapper {
+        width: 120px;
+        height: 120px;
+        margin: 0 auto 25px;
+        border-radius: 50%;
+        background: #ffffff;
+        overflow: hidden;
+        box-shadow: 0 4px 16px rgba(0,0,0,0.1);
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
-
-    /* Logo styling */
-    .logo {
-        width: 140px;
-        margin: 0 auto 30px auto;
-        display: block;
+    .logo-wrapper img {
+        width: 100%;
+        height: auto;
     }
 
     /* Button base */
     .btn {
         display: block;
-        padding: 15px;
+        padding: 16px;
         margin: 14px auto;
-        width: 85%;
-        max-width: 300px;
-        color: #fff;
-        text-decoration: none;
-        border-radius: 10px;
-        font-size: 18px;
-        font-weight: bold;
-        transition: 0.2s;
-    }
-
-    /* Facebook Blue */
-    .facebook {
-        background: #1877F2;
-    }
-    .facebook:hover {
-        background: #0f5bd7;
-    }
-
-    /* Instagram Gradient (Magenta dominant) */
-    .instagram {
-        background: linear-gradient(135deg, #E1306C, #C13584);
-    }
-    .instagram:hover {
-        opacity: 0.9;
-    }
-
-    /* Google Maps Green */
-    .maps {
-        background: #34A853;
-    }
-    .maps:hover {
-        background: #2c8e46;
-    }
-</style>
-</head>
-
-<body>
-<div class="container">
-
-    <!-- REAL LOGO — replace logo.png with your actual uploaded filename -->
-    <img src="logo.png" alt="Logo" class="logo">
-
-    <!-- BUTTONS -->
-    <a class="btn facebook" href="#" target="_blank">Facebook</a>
-    <a class="btn instagram" href="#" target="_blank">Instagram</a>
-    <a class="btn maps" href="#" target="_blank">Find us on Google Maps</a>
-
-</div>
-</body>
-</html>
+        width: 100%;
+        max-width: 320px;
