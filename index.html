@@ -20,58 +20,45 @@
         margin: auto;
     }
 
+    /* Logo styling */
     .logo {
-        width: 120px;
-        height: 120px;
-        background: #e0e0e0;
-        border-radius: 12px;
-        margin: 0 auto 20px auto;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        font-size: 18px;
-        color: #555;
+        width: 140px;
+        margin: 0 auto 30px auto;
+        display: block;
     }
 
-    h1 {
-        margin-bottom: 30px;
-        font-size: 26px;
-    }
-
+    /* Button base */
     .btn {
         display: block;
-        background: #0066cc;
         padding: 15px;
-        margin: 12px auto;
+        margin: 14px auto;
         width: 85%;
         max-width: 300px;
         color: #fff;
         text-decoration: none;
-        border-radius: 8px;
+        border-radius: 10px;
         font-size: 18px;
+        font-weight: bold;
         transition: 0.2s;
     }
 
-    .btn:hover {
-        background: #004f99;
+    /* Facebook Blue */
+    .facebook {
+        background: #1877F2;
     }
-</style>
-</head>
+    .facebook:hover {
+        background: #0f5bd7;
+    }
 
-<body>
-<div class="container">
+    /* Instagram Gradient (Magenta dominant) */
+    .instagram {
+        background: linear-gradient(135deg, #E1306C, #C13584);
+    }
+    .instagram:hover {
+        opacity: 0.9;
+    }
 
-    <!-- Placeholder logo box -->
-    <div class="logo">LOGO</div>
-
-    <h1>Connect With Us</h1>
-
-    <!-- 4 placeholder links -->
-    <a class="btn" href="#">Link One</a>
-    <a class="btn" href="#">Link Two</a>
-    <a class="btn" href="#">Link Three</a>
-    <a class="btn" href="#">Link Four</a>
-
-</div>
-</body>
-</html>
+    /* Google Maps Green */
+    .maps {
+        background: #34A853;
+    }
